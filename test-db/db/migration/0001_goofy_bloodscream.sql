@@ -1,0 +1,1 @@
+ALTER TABLE "todo" ADD COLUMN "todo_text3" varchar(255) NOT NULL;

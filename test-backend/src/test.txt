@@ -1,0 +1,13 @@
+{
+  "email": "secondtest@example.com",
+  "username": "user2",
+  "password": "5678"
+}
+/*postman send*/
+{
+    "status": 201,
+    "success": true,
+    "message": " User created Successfully",
+    "user": []
+}
+can add image in docker-compose to reduce build when in production time
