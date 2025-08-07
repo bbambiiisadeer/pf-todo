@@ -24,3 +24,4 @@ COPY ./nginx.conf.template /etc/nginx/templates/nginx.conf.template
 
 # Copy the built application files from the builder stage to the directory Nginx serves static files from
 COPY --from=builder /app/dist /usr/share/nginx/html
+
